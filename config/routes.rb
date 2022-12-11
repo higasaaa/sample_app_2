@@ -1,0 +1,10 @@
+Rails.application.routes.draw do
+ 
+  # postデータを追加するためのルーティングを追加する
+
+  
+  
+  get '/top' => 'homes#top'
+  resources :lists
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+end
